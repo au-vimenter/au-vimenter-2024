@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  width: 240px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+  &:active {
+    filter: brightness(0.7);
+  }
+}
+
+.btn-text {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background: #fff;
+}
