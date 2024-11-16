@@ -3,6 +3,18 @@
   flex-direction: column;
   gap: 20px;
   margin: 0 auto;
+
+  & > * {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  @media (max-width: 768px) {
+    & > * {
+      font-size: 36px;
+    }
+  }
 }
 
 .au {
@@ -17,6 +29,10 @@
 .asterisk {
   color: #fff;
   vertical-align: 20px;
+
+  @media (max-width: 768px) {
+    vertical-align: 8px;
+  }
 }
 
 .call {

@@ -8,12 +8,16 @@
 .item {
   display: flex;
   gap: 16px;
-}
 
-.item--text {
-  color: #fff;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  & > * {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
 }

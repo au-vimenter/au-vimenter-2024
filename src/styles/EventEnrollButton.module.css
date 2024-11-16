@@ -16,6 +16,12 @@
   &:active {
     filter: brightness(0.7);
   }
+
+  @media (max-width: 768px) {
+    bottom: 30px;
+    width: calc(100% - 104px);
+    height: 60px;
+  }
 }
 
 .btn-text {
@@ -25,4 +31,8 @@
   font-weight: 800;
   line-height: normal;
   background: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 }
