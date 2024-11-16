@@ -10,6 +10,7 @@ const EventSupporter = () => {
         gap: 10,
         alignItems: "center",
         justifyContent: "center",
+        width: "max-content",
       }}
     >
       <div>장소협찬: 리턴제로</div>
