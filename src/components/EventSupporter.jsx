@@ -1,11 +1,12 @@
 import styles from "../styles/EventSupporter.module.css";
+import { supporters } from "../constants/text.js";
 
 const EventSupporter = () => {
   return (
     <div className={styles.container}>
-      <div>장소협찬: 리턴제로</div>
+      <div>{supporters[0]}</div>
       <div className={styles.divider}></div>
-      <div>다과협찬: LG 유플러스 아이들나라</div>
+      <div>{supporters[1]}</div>
     </div>
   );
 };

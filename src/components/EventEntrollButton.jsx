@@ -1,4 +1,5 @@
 import styles from "../styles/EventEnrollButton.module.css";
+import { enrollBtnText } from "../constants/text.js";
 
 const EventEntrollButton = () => {
   return (
@@ -7,7 +8,7 @@ const EventEntrollButton = () => {
       className={styles.btn}
       target="_blank"
     >
-      <button className={styles["btn-text"]}>참가 신청하기</button>
+      <button className={styles["btn-text"]}>{enrollBtnText}</button>
     </a>
   );
 };

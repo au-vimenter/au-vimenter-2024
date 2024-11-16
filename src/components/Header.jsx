@@ -1,17 +1,17 @@
-import { links } from "../constants/common";
+import { links } from "../constants/text.js";
 import styles from "../styles/Header.module.css";
 
 const Header = () => {
   return (
     <nav className={styles.navbar}>
-      <a href={links.vimKR} target="_blank">
-        <img src="/vimkr.png" alt="vim.kr" />
-        <span>vim.kr</span>
-      </a>
-      <a href={links.auVimEnter} target="_blank">
-        <img src="/github.png" alt="auVimEnter" />
-        <span>auVimEnter</span>
-      </a>
+      {links.map((link) => {
+        return (
+          <a key={link.url} href={link.url} target="_blank">
+            <img src={link.imgSrc} alt={link.url} />
+            <span>{link.name}</span>
+          </a>
+        );
+      })}
     </nav>
   );
 };
