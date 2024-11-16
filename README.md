@@ -1,8 +1,14 @@
-# React + Vite
+# VimEnter 홈페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 로컬 작업시
+```bash
+yarn
+yarn dev
+```
 
-Currently, two official plugins are available:
+## 텍스트 변경시
+- text.js 파일을 수정하면 됨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 배포환경
+- vercel
+- vercel 계정 : devstefancho
