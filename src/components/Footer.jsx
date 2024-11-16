@@ -1,18 +1,9 @@
 import { footerText } from "../constants/text.js";
+import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "50px",
-        padding: "10px",
-        borderTop: "1px solid rgba(255, 255, 255, 0.1)",
-        width: "100vw",
-      }}
-    >
+    <footer className={styles.container}>
       <div>&copy; {footerText}</div>
     </footer>
   );
