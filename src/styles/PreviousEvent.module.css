@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    @media (max-width: 768px) {
+      gap: 0;
+    }
+  }
+}
+
+.link::before {
+  content: "🔗";
+  margin-right: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 10px 20px;
+
+  a {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+}

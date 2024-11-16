@@ -3,6 +3,7 @@ import EventEntrollButton from "./EventEntrollButton";
 import EventInfo from "./EventInfo";
 import EventSupporter from "./EventSupporter";
 import Header from "./Header";
+import PreviousEvents from "./PreviousEvents";
 import VimEnterTitle from "./VimEnterTitle";
 
 const Mobile = () => {
@@ -24,8 +25,11 @@ const Mobile = () => {
       <EventEntrollButton />
       <div className="space-60"></div>
       <EventInfo />
-      <div className="space-50"></div>
+      <div className="space-80"></div>
       <EventSupporter />
+      <div className="space-80"></div>
+      <PreviousEvents />
+      <div className="space-120"></div>
     </div>
   );
 };

@@ -39,3 +39,26 @@
 .read-the-docs {
   color: #888;
 }
+
+section {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  width: max-content;
+  font-weight: 700;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-text-blue);
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+}

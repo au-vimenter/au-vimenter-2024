@@ -7,8 +7,8 @@ export const descriptionText = [
 ];
 
 export const supporters = [
-  "장소후원 : 리턴제로",
-  "다과후원 : LG 유플러스 아이들나라",
+  "장소지원 : 리턴제로",
+  "다과지원 : LG 유플러스 아이들나라",
 ];
 
 export const eventDateTime = " " + "2024/12/21 15:00 ~ 18:00";
@@ -37,3 +37,19 @@ export const titleText = {
   call: "call",
   bye: "Bye2024()",
 };
+
+export const sectionTitle = {
+  eventSupporter: "후원사",
+  previousEvents: "지난 행사",
+};
+
+export const previousEvents = [
+  {
+    name: "2023 VimEnter",
+    url: "https://au-vimenter.github.io/post/2023-12-23-au-vimenter/",
+  },
+  {
+    name: "2022 VimEnter",
+    url: "https://au-vimenter.github.io/post/2022-12-23-au-vimenter/",
+  },
+];
