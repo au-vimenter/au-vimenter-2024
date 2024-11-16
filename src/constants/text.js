@@ -14,6 +14,7 @@ export const supporters = [
 export const eventDateTime = " " + "2024/12/21 15:00 ~ 18:00";
 
 export const eventPlace = " " + "서울 서초구 강남대로 343 8층 리턴제로";
+export const eventPlaceMapUrl = "https://naver.me/xgNFMhIe";
 
 export const enrollBtnText = "참가 신청하기";
 

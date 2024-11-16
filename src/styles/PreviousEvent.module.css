@@ -29,11 +29,6 @@
   a {
     display: inline-block;
     font-size: 14px;
-    color: #fff;
-
-    &:hover {
-      filter: brightness(0.9);
-    }
 
     @media (max-width: 768px) {
       font-size: 12px;

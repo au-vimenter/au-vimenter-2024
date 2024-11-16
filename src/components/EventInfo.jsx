@@ -2,7 +2,11 @@ import { isDesktop } from "../constants/common";
 import CalendarIcon from "./CalendarIcon";
 import LocationIcon from "./LocationIcon";
 import styles from "../styles/EventInfo.module.css";
-import { eventDateTime, eventPlace } from "../constants/text.js";
+import {
+  eventDateTime,
+  eventPlace,
+  eventPlaceMapUrl,
+} from "../constants/text.js";
 
 const EventInfo = () => {
   const size = isDesktop ? 24 : 16;
@@ -14,7 +18,9 @@ const EventInfo = () => {
       </div>
       <div className={styles.item}>
         <LocationIcon size={size} />
-        <span>{eventPlace}</span>
+        <a href={eventPlaceMapUrl} target="_blank">
+          <span>{eventPlace}</span>
+        </a>
       </div>
     </div>
   );
