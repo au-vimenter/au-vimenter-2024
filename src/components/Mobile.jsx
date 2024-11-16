@@ -21,10 +21,11 @@ const Mobile = () => {
       <div className="space-70"></div>
       <EventDescription />
       <div className="space-60"></div>
+      <EventEntrollButton />
+      <div className="space-60"></div>
       <EventInfo />
       <div className="space-50"></div>
       <EventSupporter />
-      <EventEntrollButton />
     </div>
   );
 };

@@ -5,7 +5,6 @@ const EventSupporter = () => {
   return (
     <div className={styles.container}>
       <div>{supporters[0]}</div>
-      <div className={styles.divider}></div>
       <div>{supporters[1]}</div>
     </div>
   );

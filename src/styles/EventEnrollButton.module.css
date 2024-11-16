@@ -1,6 +1,4 @@
 .btn {
-  position: fixed;
-  bottom: 120px;
   display: flex;
   width: 240px;
   height: 100px;
@@ -18,7 +16,6 @@
   }
 
   @media (max-width: 768px) {
-    bottom: 30px;
     width: calc(100% - 104px);
     height: 60px;
   }

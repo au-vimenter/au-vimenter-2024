@@ -19,11 +19,12 @@ const Desktop = () => {
       <div className="space-120"></div>
       <VimEnterTitle />
       <div className="space-80"></div>
+      <EventDescription />
+      <div className="space-80"></div>
+      <EventEntrollButton />
+      <div className="space-80"></div>
       <EventInfo />
       <div className="space-40"></div>
-      <EventDescription />
-      <div className="space-40"></div>
-      <EventEntrollButton />
       <EventSupporter />
     </div>
   );
