@@ -54,3 +54,5 @@ export const previousEvents = [
     url: "https://au-vimenter.github.io/post/2022-12-23-au-vimenter/",
   },
 ];
+
+export const footerText = "2024 VimEnter. All rights reserved.";
