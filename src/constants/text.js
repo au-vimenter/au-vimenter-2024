@@ -21,12 +21,12 @@ export const links = [
   {
     name: "vimKR",
     url: "https://vim.kr",
-    imgSrc: "/vimkr.png",
+    imgSrc: "./vimkr.png",
   },
   {
     name: "auVimEnter",
     url: "https://au-vimenter.github.io/",
-    imgSrc: "/github.png",
+    imgSrc: "./github.png",
   },
 ];
 
