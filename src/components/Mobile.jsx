@@ -1,4 +1,4 @@
-import styles from "../styles/Mobile.module.scss";
+import styles from "../styles/Mobile.module.css";
 import EventDescription from "./EventDescription";
 import EventEntrollButton from "./EventEntrollButton";
 import EventInfo from "./EventInfo";
