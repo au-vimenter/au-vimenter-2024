@@ -1,3 +1,4 @@
+import styles from "../styles/Mobile.module.scss";
 import EventDescription from "./EventDescription";
 import EventEntrollButton from "./EventEntrollButton";
 import EventInfo from "./EventInfo";
@@ -10,12 +11,7 @@ import VimEnterTitle from "./VimEnterTitle";
 const Mobile = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
+      className={styles["mobile-container"]}
     >
       <Header />
       <div className="space-110"></div>
