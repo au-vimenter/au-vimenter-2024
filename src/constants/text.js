@@ -7,8 +7,9 @@ export const descriptionText = [
 ];
 
 export const supporters = [
-  "장소지원 : 리턴제로",
-  "다과지원 : LG 유플러스 아이들나라",
+  "장소 : 리턴제로 - 차세대 음성 AI의 미래",
+  "다과 : LG 유플러스 아이들나라",
+  "영상촬영 : 코드숨",
 ];
 
 export const eventDateTime = " " + "2024/12/21 15:00 ~ 18:00";

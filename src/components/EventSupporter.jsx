@@ -5,8 +5,9 @@ const EventSupporter = () => {
   return (
     <section className={styles.container}>
       <h2>{sectionTitle.eventSupporter}</h2>
-      <div>{supporters[0]}</div>
-      <div>{supporters[1]}</div>
+      {supporters.map((supporter, index) => (
+        <div key={index}>{supporter}</div>
+      ))}
     </section>
   );
 };
